@@ -34,6 +34,7 @@ A funcionalidade de narração em áudio é implementada pela função NarraAudi
 Essa abordagem garante que cada parte da história seja narrada em áudio sequencialmente, esperando a conclusão da reprodução de um arquivo antes de iniciar o próximo.
 
 #### Bibliotecas Utilizadas
+- google.colab: Para autenticação da API Key
 - google.adk.agents: Para a criação e gerenciamento dos agentes de IA.
 - google.adk.runners: Para executar os agentes dentro de uma sessão.
 - google.adk.sessions: Para gerenciar as sessões dos agentes em memória.
